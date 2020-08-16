@@ -37,6 +37,9 @@ body {
   background: #fff;
   font-size: 18px;
   font-family: helvetica, arial;
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden
 }
 a {
   color: #555;
@@ -148,7 +151,7 @@ p {
 
 .thin-line{
   margin: auto;
-  width: 94%;
+  width: 92%;
   height: 10px;
   background-color: black;
   margin-top: 20px; 
