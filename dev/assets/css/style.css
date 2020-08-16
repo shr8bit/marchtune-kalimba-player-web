@@ -98,7 +98,6 @@ p {
   position: absolute;
   top:0px;
   width: 100%;
-  z-index: -1;
   border-radius: 6px;
 }
 .key .white-key:active,
@@ -107,7 +106,6 @@ p {
   top: 5px;
   position: absolute;
   width: 100%;
-  z-index: -1;
 }
 .root {
   /* background: #804a26; */
@@ -115,7 +113,6 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
-
 }
 
 .circle {
@@ -137,22 +134,24 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
- 
 
 .line{
   margin: auto;
-  width: 90%;
-  height:20%;
+  width: 94%;
+  height: 20px;
   background-color: black;
-  padding-top: 10px; 
-  z-index: 11;
+  margin-top: 5px; 
+  position: relative;
+  z-index: 3;
   border-radius: 10px;
 }
 
 .thin-line{
   margin: auto;
-  width: 90%;
+  width: 94%;
+  height: 10px;
   background-color: black;
-  z-index: 11;
-  border-radius: 6px;
+  margin-top: 20px; 
+  z-index: 1;
+  border-radius: 10px;
 }
