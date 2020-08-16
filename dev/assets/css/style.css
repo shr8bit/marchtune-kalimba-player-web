@@ -122,6 +122,7 @@ p {
   width: 12vh;
   height: 12vh;
   background-color: black;
+  box-shadow: inset -1px -1px 10px rgba(0, 0, 0, 0.3), -1px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .center {
@@ -142,6 +143,7 @@ p {
   position: relative;
   z-index: 3; 
   border-radius: 10px;
+  box-shadow: inset -1px -1px 10px rgba(0, 0, 0, 0.3), -1px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .thin-line{
@@ -152,4 +154,5 @@ p {
   margin-top: 20px; 
   z-index: 1;
   border-radius: 10px;
+  box-shadow: inset -1px -1px 10px rgba(0, 0, 0, 0.3), -1px 2px 3px rgba(0, 0, 0, 0.5);
 }
